@@ -1,0 +1,352 @@
+%-------------------------
+% Resume in Latex
+% Author : Jake Gutierrez
+% Based off of: https://github.com/sb2nov/resume
+% License : MIT
+%------------------------
+
+\documentclass[letterpaper,12pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\input{glyphtounicode}
+
+
+%----------FONT OPTIONS----------
+% sans-serif
+% \usepackage[sfdefault]{FiraSans}
+% \usepackage[sfdefault]{roboto}
+% \usepackage[sfdefault]{noto-sans}
+\usepackage[default]{sourcesanspro}
+
+% serif
+% \usepackage{CormorantGaramond}
+% \usepackage{charter}
+
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.5in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1.0in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+% Ensure that generate pdf is machine readable/ATS parsable
+\pdfgentounicode=1
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[1]{
+  \item\small{
+    {#1 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubSubheading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textit{\small#1} & \textit{\small #2} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeProjectHeading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \small#1 & #2 \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.15in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+%%%%%%  RESUME STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{document}
+
+%----------HEADING----------
+% \begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
+%   \textbf{\href{http://sourabhbajaj.com/}{\Large Sourabh Bajaj}} & Email : \href{mailto:sourabh@sourabhbajaj.com}{sourabh@sourabhbajaj.com}\\
+%   \href{http://sourabhbajaj.com/}{http://www.sourabhbajaj.com} & Mobile : +1-123-456-7890 \\
+% \end{tabular*}
+
+\begin{center}
+    \textbf{\Huge \scshape Pratik Awaik} \\ \vspace{1pt}
+    \small +91 8200750324 $|$
+    \href{mailto:pratikawaik125@gmail.com}{\underline{pratikawaik125@gmail.com}} $|$ 
+    \href{https://www.linkedin.com/in/pratikawaik/}{\underline{linkedin.com/in/pratikawaik/}} $|$
+    \href{https://github.com/PratikAwaik}{\underline{github.com/PratikAwaik}}
+    
+\end{center}
+
+%-----------EDUCATION-----------
+\section{Education}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {Gujarat Technological University}{}
+      {Bachelor of Engineering in Electronics and Communication}{Aug. 2018 -- Aug. 2022}
+      
+    % \smallskip
+    % \resumeSubheading
+    %   {(12th)Seventh-Day Adventist Higher Secondary School}{85\%}
+    %   {Math/(A Group)}{2017 -- 2018}
+      
+    % \smallskip
+    % \resumeSubheading
+    %   {(10th)Seventh-Day Adventist Higher Secondary School}{84\%}
+    %   {}{2015 -- 2016}
+  \resumeSubHeadingListEnd
+
+%-----------EXPERIENCE-----------
+\section{Work Experience}
+  \resumeSubHeadingListStart
+
+    \resumeSubheading
+      {Front End Developer}{}
+      {Ivy Club}{April 2021 -- Present}
+      \resumeItemListStart
+        \resumeItem{Designed and developed views/templates leveraging VueJS and laravel blade templates.}
+        \resumeItem{Built a responsive and customizable portfolio in VueJS, generated dynamically using information provided by the user.}
+        \resumeItem{Utilized VueJS to build components responsible for setting up and creating a Club to organize meetups and workshops.}
+        \resumeItem{Developed Color Picker (picking color from an image) and a Quiz using JavaScript and VueJS for cosmetic enthusiasts to help them identify what shade suits them the best.}
+        \resumeItem{Developed authentication pages, homepage, carousel, modals and several other features using HTML, CSS, JavaScript and VueJS for a news information client.}
+        \resumeItem{Assisted Senior Developer in resolving frontend bugs and conflicts.}
+      \resumeItemListEnd    
+  \resumeSubHeadingListEnd
+
+
+      
+% -----------Multiple Positions Heading-----------
+%    \resumeSubSubheading
+%     {Software Engineer I}{Oct 2014 - Sep 2016}
+%     \resumeItemListStart
+%        \resumeItem{Apache Beam}
+%          {Apache Beam is a unified model for defining both batch and streaming data-parallel processing pipelines}
+%     \resumeItemListEnd
+%    \resumeSubHeadingListEnd
+%-------------------------------------------
+
+    % \resumeSubheading
+    %   {Information Technology Support Specialist}{Sep. 2018 -- Present}
+    %   {Southwestern University}{Georgetown, TX}
+    %   \resumeItemListStart
+    %     \resumeItem{Communicate with managers to set up campus computers used on campus}
+    %     \resumeItem{Assess and troubleshoot computer problems brought by students, faculty and staff}
+    %     \resumeItem{Maintain upkeep of computers, classroom equipment, and 200 printers across campus}
+    % \resumeItemListEnd
+
+    % \resumeSubheading
+    %   {Artificial Intelligence Research Assistant}{May 2019 -- July 2019}
+    %   {Southwestern University}{Georgetown, TX}
+    %   \resumeItemListStart
+    %     \resumeItem{Explored methods to generate video game dungeons based off of \emph{The Legend of Zelda}}
+    %     \resumeItem{Developed a game in Java to test the generated dungeons}
+    %     \resumeItem{Contributed 50K+ lines of code to an established codebase via Git}
+    %     \resumeItem{Conducted  a human subject study to determine which video game dungeon generation technique is enjoyable}
+    %     \resumeItem{Wrote an 8-page paper and gave multiple presentations on-campus}
+    %     \resumeItem{Presented virtually to the World Conference on Computational Intelligence}
+    %   \resumeItemListEnd
+
+%   \resumeSubHeadingListEnd
+
+
+%-----------PROJECTS-----------
+\section{Projects}
+          
+    \resumeSubHeadingListStart
+        \resumeProjectHeading
+          {\textbf{Gravity} $|$ \emph{ReactJS, Redux, ExpressJS, MongoDB, Mongoose, TailwindCSS}} \\
+          \href{https://github.com/PratikAwaik/gravity-frontend}{\underline{Frontend}} $||$ \href{https://github.com/PratikAwaik/gravity-backend}{\underline{Backend}} $||$ In Progress 
+          \resumeItemListStart
+            \resumeItem{Developing a full stack application imitating the popular social media app - Reddit.}
+            \resumeItem{Used Express as backend framework to develop authentication and CRUD functionality for the app.}
+            \resumeItem{Implementing Frontend using React, Redux and tailwindcss while adhering to best development practices.}
+          \resumeItemListEnd
+    
+        \resumeProjectHeading
+          {\textbf{Battleship} $|$ \emph{HTML5, CSS3, JavaScript, ReactJS, Jest}} \\
+          \href{https://github.com/PratikAwaik/battleship}{\underline{Source Code}} $||$ \href{https://pratikawaik.github.io/battleship/}{\underline {Live Preview}}
+          \resumeItemListStart
+            \resumeItem{Created the classic battleship game in ReactJS, where a player destroys all the opponent's ships to claim victory.}
+            \resumeItem{Used Jest to write tests for functions utilized in game's logic.}
+          \resumeItemListEnd
+          
+        \resumeProjectHeading
+          {\textbf{Shopping Cart} $|$ \emph{HTML5, CSS3, JavaScript, ReactJS}} \\
+          \href{https://github.com/PratikAwaik/shopping-cart}{\underline{Source Code}} $||$  \href{https://pratikawaik.github.io/shopping-cart/}{\underline{Live Preview}}
+          \resumeItemListStart
+            \resumeItem{Added routing functionalities to the website using React Router.}
+            \resumeItem{Used useContext hook to share the state with all the child components.}
+            \resumeItem{Implemented various features such as adding and removing products to and from the shopping cart.}
+
+          \resumeItemListEnd
+          
+        % \resumeProjectHeading
+        %   {\textbf{Resume Maker} $|$ \emph{HTML5, CSS3, JavaScript, ReactJS, jsPDF}} \\
+        %   \href{https://github.com/PratikAwaik/resume-maker}{\underline{Source Code}} $||$ \href{https://pratikawaik.github.io/resume-maker/}{\underline{Live Preview}}
+        %   \resumeItemListStart
+        %     \resumeItem{Implemented different sections of the resume using React hooks.}
+        %     % \resumeItem{Used the concepts, State and Props, of ReactJS in functional Components to conditionally render them.}
+        %     \resumeItem{Used jsPDF library to convert HTML to PDF for the user to download their resume.}
+        %   \resumeItemListEnd
+          
+    %   \resumeProjectHeading
+    %       {\textbf{Todo-App} $|$ \emph{HTML5, CSS3, JavaScript, particles.js}} \\
+    %       \href{https://github.com/PratikAwaik/Todo}{\underline{https://github.com/PratikAwaik/Todo}} $||$ \href{https://pratikawaik.github.io/Todo/}{\underline {https://pratikawaik.github.io/Todo/}}
+    %       \resumeItemListStart
+    %         \resumeItem{Built an app that makes you keep track of your daily tasks.}
+    %         \resumeItem{User can create and delete projects as well as create, edit and delete tasks in the corresponding project.}
+    %         \resumeItem{Leveraged particles.js to design the background.}
+    %       \resumeItemListEnd
+    \resumeSubHeadingListEnd
+
+% \section{Courses Taken in College}
+%     \begin{enumerate}
+%         \item \textbf{Semester 1}
+%         \begin{itemize}
+%             \item English (3 credits)
+%             \item Basic Electrical Engineering (4 credits)
+%             \item Basic Mechanical Engineering (4 credits)
+%             \item Environmental Sciences (0 credits)
+%             \item Workshop/ Manufacturing Practices (2 credits)
+%             \item Mathematics – I (5 credits)
+%         \end{itemize}
+        
+%         \item \textbf{Semester 2}
+%         \begin{itemize}
+%             \item Programming for Problem Solving(C programming) (4 credits)
+%             \item Engineering Graphics and Design (4 credits)
+%             \item Mathematics - II (5 credits)
+%             \item Basic Electronics (5 credits)
+%             \item Physics (4 credits)
+%         \end{itemize}
+        
+%         \item \textbf{Semester 3}
+%         \begin{itemize}
+%             \item Effective Technical Communication (3 credits)
+%             \item Probability and Statistics (5 credits)
+%             \item Control Systems (4 credits)
+%             \item Digital System Design (5 credits)
+%             \item Network Theory (5 credits)
+%         \end{itemize}
+        
+%         \item \textbf{Semester 4}
+%         \begin{itemize}
+%             \item Analog Circuit Design (5 credits)
+%             \item Signal and Systems (5 credits)
+%             \item Professional Ethics (3 credits)
+%             \item Microprocessor and Microcontroller (5 credits)
+%             \item Electromagnetic Theory (4 credits)
+%         \end{itemize}
+        
+%         \item \textbf{Semester 5}
+%         \begin{itemize}
+%             \item Integrated Personality Development Course (2 credits)
+%             \item Principles of Management (3 credits)
+%             \item Analog and Digital Communication (5 credits)
+%             \item VLSI Design (5 credits)
+%             \item Advance Microcontroller (4g
+        %   {\textbf{Resume Maker} $|$ \emph{HTML5, CSS3, JavaScript, ReactJS, jsPDF}} \\ credits)
+%             \item Python Programming (3 credits)
+%         \end{itemize}
+        
+%         \item \textbf{Semester 6}
+%         \begin{itemize}
+%             \item Integrated Personality Development Course (2 credits)
+%             \item Antennas and Propagation (5 credits)
+%             \item Fiber Optic Communication (4 credits)
+%             \item Computer Networks (4 credits)
+%             \item Embedded Systems (4 credits)
+%             \item Web Technology (3 credits)
+%         \end{itemize}
+        
+%         \item \textbf{Semester 7} (Ongoing)
+%         \begin{itemize}
+%             \item Introduction to Machine Learning (4 credits)
+%             \item Introduction to Artificial Intelligence (3 credits)
+%             \item Internet of Things (3 credits)
+%             \item Testing and Verification (4 credits)
+%             \item Digital Signal Processing (4 credits)
+%         \end{itemize}
+%     \end{enumerate}
+    
+% -----------Technical SKILLS-----------
+\section{Technical Skills}
+ \begin{itemize}[leftmargin=0.15in, label={}]
+    \small{\item{
+    % JavaScript, Python, HTML5, CSS3, ReactJS, VueJS, NodeJS, ExpressJS, Redux, Jest,
+    % MongoDB, Mongoose, Git, VS Code, Webpack, ESLint
+    % \text{C, Python, JavaScript, HTML, CSS, ReactJS, VueJS, NodeJS, ExpressJS, Jest, Git}
+     \textbf{Languages}{: JavaScript, Python, HTML5, CSS3} \\
+     \textbf{Frameworks and Libraries}{: ReactJS, Redux, VueJS, NodeJS, ExpressJS, Jest} \\
+     \textbf{Databases and ORM/ODM}{: MongoDB, Mongoose} \\
+     \textbf{Developer Tools}{: Git, VS Code, Webpack, ESLint} \\
+    }}
+ \end{itemize}
+
+%---------SOFT SKILLS-----------
+% \section{Soft Skills}
+%  \begin{itemize}[leftmargin=0.15in, label={}]
+%     \small{\item{
+%      \text{Problem-solving, Adaptability, Flexibility, Time Management, Teamwork}
+%     }}
+%  \end{itemize}
+ 
+% %--------HOBBIES AND INTERESTS-------
+% \section{Hobbies and Interests}
+%  \begin{itemize}[leftmargin=0.15in, label={}]
+%     \small{\item{
+%      \text{Machine Learning, Video Games, Playing Volleyball}
+%     }}
+%  \end{itemize}
+
+%---------LANGUAGES------------
+% \section{Languages}
+%  \begin{itemize}[leftmargin=0.15in, label={}]
+%     \small{\item{
+%      \text{English, Hindi, Gujarati, Marathi}
+%     }}
+%  \end{itemize}
+%-------------------------------------------
+\end{document}
